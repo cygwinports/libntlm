@@ -1,0 +1,6 @@
+category: Net Libs
+requires: cygwin
+external-source: libntlm
+sdesc: "MS NTLM authentication client library (development)"
+ldesc: "A library which provides routines to manipulate the structures
+used for the client end of Microsoft NTLM authentication."
