@@ -1,0 +1,14 @@
+NAME="libntlm"
+VERSION=0.3.11
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="MS NTLM authentication client library"
+DESCRIPTION="A library which provides routines to manipulate the structures
+used for the client end of Microsoft NTLM authentication."
+HOMEPAGE="http://josefsson.org/libntlm/"
+SRC_URI="http://josefsson.org/libntlm/releases/libntlm-${VERSION}.tar.gz
+	 http://josefsson.org/libntlm/releases/libntlm-${VERSION}.tar.gz.sig"
+
+PKG_NAMES="${NAME}0 ${NAME}-devel"
+libntlm0_CONTENTS='usr/bin/cygntlm-0.dll usr/share/doc/'
+libntlm_devel_CONTENTS='usr/include/ usr/lib/'

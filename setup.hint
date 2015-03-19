@@ -1,4 +1,0 @@
-category: Net
-sdesc: "MS NTLM authentication client library (documentation)"
-ldesc: "A library which provides routines to manipulate the structures
-used for the client end of Microsoft NTLM authentication."
